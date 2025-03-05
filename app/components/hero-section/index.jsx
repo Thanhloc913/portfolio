@@ -9,6 +9,7 @@ import { MdDownload } from "react-icons/md";
 import { SiLeetcode } from "react-icons/si";
 
 function HeroSection({ profile }) {
+  console.log(profile);
 
   return (
     <section className="relative flex flex-col items-center justify-between py-4 lg:py-12">
@@ -99,13 +100,13 @@ function HeroSection({ profile }) {
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">name:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.name}</span>
+                <span className="text-green-400">Thanhloc913</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
                 <span className="ml-4 lg:ml-8 mr-2 text-white">company:</span>
                 <span className="text-gray-400">{`'`}</span>
-                <span className="text-green-400">{profile.company}</span>
+                <span className="text-green-400">No</span>
                 <span className="text-gray-400">{`',`}</span>
               </div>
               <div>
